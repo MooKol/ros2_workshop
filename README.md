@@ -39,7 +39,7 @@ sudo apt-get install ros-humble-urdf-tutorial
 
 1. Clone the repo
 ```sh
-git clone https://github.com/MooKol/.git
+git clone https://github.com/MooKol/ros2_workshop.git
 ```
 2. Build the ROS 2 workspace
 ```sh
