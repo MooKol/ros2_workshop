@@ -1,0 +1,17 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pourya/ros2_workshop/install/arduinobot_utils/local/lib/python3.10/dist-packages",
+        "/home/pourya/ros2_workshop/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/pourya/ros2_workshop/install/arduinobot_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pourya/ros2_workshop/install/arduinobot_utils/local/lib/python3.10/dist-packages",
+        "/home/pourya/ros2_workshop/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/pourya/ros2_workshop/install/arduinobot_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/pourya/ros2_workshop/src/arduinobot_controller"
+}

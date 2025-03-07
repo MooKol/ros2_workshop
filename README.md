@@ -29,12 +29,12 @@ sudo apt-get update && sudo apt-get install -y \
 ```sh
 pip install pyserial
 ```
-
 ```sh
-sudo apt-get install ros-humble-urdf-tutorial
+sudo apt install ros-humble-srdfdom
 ```
-
-
+```sh
+sudo apt install ros-humble-urdf-tutorial 
+```
 ### Installation
 
 1. Clone the repo
