@@ -25,6 +25,9 @@ def generate_launch_description():
         )
         .robot_description_semantic(file_path="config/arduinobot.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
+        .planning_pipelines(
+        pipelines=["ompl"]
+    )
         .to_moveit_configs()
     )
 
@@ -46,10 +49,10 @@ def generate_launch_description():
             "moveit.rviz",
     )
 
-    joint_state_publisher_gui_node = Node(
-        package='joint_state_publisher_gui',
-        executable='joint_state_publisher_gui'
-    )
+    # joint_state_publisher_gui_node = Node(
+    #     package='joint_state_publisher_gui',
+    #     executable='joint_state_publisher_gui'
+    # )
 
     rviz_node = Node(
         package="rviz2",
@@ -67,7 +70,7 @@ def generate_launch_description():
 
     return LaunchDescription(
         [
-            joint_state_publisher_gui_node,
+            #joint_state_publisher_gui_node,
             is_sim_arg,
             move_group_node, 
             rviz_node
